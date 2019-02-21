@@ -189,7 +189,8 @@ angular.module('kityminderEditor')
 					'tabs': {
 						'idea': '思路',
 						'appearence': '外观',
-						'view': '视图'
+						'view': '视图',
+						'saveas': '保存为'
 					},
 
 					'quickvisit': {
@@ -336,6 +337,7 @@ angular.module('kityminderEditor')
 					'removeimage': '移除已有图片',
 					'removenote': '移除已有备注',
 					'resetlayout': '整理',
+					'saveaskm': 'km',
 
 					'justnow': '刚刚',
 					'minutesago': '{0} 分钟前',
