@@ -20,8 +20,7 @@ angular.module('kityminderEditor')
             "referrerPolicy": "no-referrer-when-downgrade",
             "body": "path="+window.filePath+"&charset=utf-8&filestr="+btoa(unescape(encodeURIComponent(JSON.stringify(window.minder.exportJson()))))+"&base64=1",
             "method": "POST",
-            "mode": "cors",
-            "cache": "no-store"
+            "mode": "cors"
           })
           .then(function(response) {
             if (!response.ok) {
